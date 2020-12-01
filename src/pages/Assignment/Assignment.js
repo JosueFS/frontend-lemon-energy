@@ -54,7 +54,7 @@ const LoadingBar = styled.div(
       height: 100%;
       animation: ${isLoading
           ? css`
-              ${loadingAnimation} 300s
+              ${loadingAnimation} 15s
             `
           : css`
               ${loadingEndAnimation} 1.4s
@@ -86,7 +86,7 @@ const Assignment = () => {
       `You wiil be redirected to ${login}'s profile`,
     )
 
-    if (decision) window.location.href = `https://github.com/${login}`
+    if (decision) window.location.assign(`https://github.com/${login}`)
   }
 
   useInfiniteScroll(listRef, fetchMore)
