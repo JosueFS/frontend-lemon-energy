@@ -4,7 +4,11 @@ import Link from '../../components/Link'
 
 const recommendations = [
   <>
-    Read the <Link href="#">assignment instructions</Link> carefully;
+    Read the
+    <Link href="https://github.com/JosueFS/frontend-lemon-energy">
+      assignment instructions
+    </Link>
+    carefully;
   </>,
   <>
     Take your time, we are not evaluating how fast you complete the assignment,{' '}
