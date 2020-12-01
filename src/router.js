@@ -7,12 +7,8 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/intro">
-          <Intro />
-        </Route>
-        <Route path="/assignment">
-          <Assignment />
-        </Route>
+        <Route path="/intro" component={Intro} />
+        <Route path="/assignment" component={Assignment} />
         <Route>
           <Redirect to="/intro" />
         </Route>
