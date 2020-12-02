@@ -14,7 +14,7 @@ export const Body200 = styled.p(
   ({ bold }) => css`
     font-family: 'Roboto', 'monospace';
     font-weight: ${!bold ? '400' : '700'};
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: #616161;
