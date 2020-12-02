@@ -17,6 +17,7 @@ export const Body200 = styled.p(
     font-size: 0.75rem;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+    color: #616161;
   `,
 )
 
